@@ -1,0 +1,123 @@
+
+============================================================
+[S0]  t=0s
+  [PASS] S0a S_{pD+b}(pt)=S_D(t) 抽查 (p<=41, 3600 例)  viol=0
+  [PASS] S0b p=13 定义(未剪枝) = 射影自动机判定, 200 个随机 D<p^3  viol=0
+  [PASS] S0b p=17 定义(未剪枝) = 射影自动机判定, 200 个随机 D<p^3  viol=0
+  [PASS] S0b p=19 定义(未剪枝) = 射影自动机判定, 200 个随机 D<p^3  viol=0
+  [PASS] S0b p=23 定义(未剪枝) = 射影自动机判定, 200 个随机 D<p^3  viol=0
+  [PASS] S0c p=3 射影自动机闭合且无奇数位转移  状态 2, 奇数位转移 0, 无出边状态 0
+  [PASS] S0c p=5 射影自动机闭合且无奇数位转移  状态 4, 奇数位转移 0, 无出边状态 0
+  [PASS] S0c p=7 射影自动机闭合且无奇数位转移  状态 4, 奇数位转移 0, 无出边状态 0
+  [PASS] S0c p=11 射影自动机闭合且无奇数位转移  状态 8, 奇数位转移 0, 无出边状态 0
+  [PASS] S0c p=13 射影自动机闭合且无奇数位转移  状态 14, 奇数位转移 0, 无出边状态 0
+  [PASS] S0c p=17 射影自动机闭合且无奇数位转移  状态 28, 奇数位转移 0, 无出边状态 0
+  [PASS] S0c p=19 射影自动机闭合且无奇数位转移  状态 18, 奇数位转移 0, 无出边状态 0
+  [PASS] S0c p=23 射影自动机闭合且无奇数位转移  状态 29, 奇数位转移 0, 无出边状态 0
+  [PASS] S0c p=29 射影自动机闭合且无奇数位转移  状态 45, 奇数位转移 0, 无出边状态 0
+  [PASS] S0c p=31 射影自动机闭合且无奇数位转移  状态 33, 奇数位转移 0, 无出边状态 0
+  [PASS] S0c p=37 射影自动机闭合且无奇数位转移  状态 64, 奇数位转移 0, 无出边状态 0
+  [PASS] S0c p=41 射影自动机闭合且无奇数位转移  状态 87, 奇数位转移 0, 无出边状态 0
+  [PASS] S0c p=43 射影自动机闭合且无奇数位转移  状态 84, 奇数位转移 0, 无出边状态 0
+  [PASS] S0c p=47 射影自动机闭合且无奇数位转移  状态 81, 奇数位转移 0, 无出边状态 0
+  [PASS] S0c p=53 射影自动机闭合且无奇数位转移  状态 79, 奇数位转移 0, 无出边状态 0
+
+============================================================
+[S1]  t=12s
+  [PASS] S1a p=3 闭式 m0=q3^i+3^len(y), 全部非好 n<=6561  6305 例, 不符 []
+  [PASS] S1b p=3 E(n)=0 即 m0<3^L  viol=0
+  [PASS] S1c p=3 闭式, 60 个随机 n∈[3^8,3^10]  不符 []
+
+============================================================
+[S2]  t=35s
+  [PASS] S2a p=13 W=2 [2] 刚性 ⇒ 全部 d 可容许  分类 {'admissible': 12}
+  [PASS] S2b p=13 W=2 ρ>0  ρ_min=3 ρ_max=3 循环长 [1] c_max=26
+  [PASS] S2c p=13 W=2 d=0 k=1 (n=27) 公式=直接  direct=156 formula=156
+  [PASS] S2c p=13 W=2 d=11 k=1 (n=38) 公式=直接  direct=663 formula=663
+  [PASS] S2c p=13 W=2 d=0 k=2 (n=495) 公式=直接  direct=8619 formula=8619
+    p=13 用时 0s
+  [PASS] S2a p=17 W=2 [2] 刚性 ⇒ 全部 d 可容许  分类 {'admissible': 16}
+  [PASS] S2b p=17 W=2 ρ>0  ρ_min=3 ρ_max=3 循环长 [1] c_max=34
+  [PASS] S2c p=17 W=2 d=0 k=1 (n=35) 公式=直接  direct=272 formula=272
+  [PASS] S2c p=17 W=2 d=15 k=1 (n=50) 公式=直接  direct=1139 formula=1139
+  [PASS] S2c p=17 W=2 d=0 k=2 (n=851) 公式=直接  direct=19363 formula=19363
+  [PASS] S2a p=17 W=4 [4] 刚性 ⇒ 全部 d 可容许  分类 {'admissible': 16}
+  [PASS] S2b p=17 W=4 ρ>0  ρ_min=3 ρ_max=3 循环长 [1] c_max=102/5
+  [PASS] S2c p=17 W=4 d=0 k=1 (n=69) 公式=直接  direct=272 formula=272
+  [PASS] S2c p=17 W=4 d=15 k=1 (n=84) 公式=直接  direct=1139 formula=1139
+  [PASS] S2c p=17 W=4 d=0 k=2 (n=1429) 公式=直接  direct=19363 formula=19363
+  [PASS] S2a p=17 W=8 [8] 刚性 ⇒ 全部 d 可容许  分类 {'admissible': 16}
+  [PASS] S2b p=17 W=8 ρ>0  ρ_min=3 ρ_max=3 循环长 [1] c_max=34/3
+  [PASS] S2c p=17 W=8 d=0 k=1 (n=137) 公式=直接  direct=272 formula=272
+  [PASS] S2c p=17 W=8 d=15 k=1 (n=152) 公式=直接  direct=850 formula=850
+  [PASS] S2c p=17 W=8 d=0 k=2 (n=2585) 公式=直接  direct=19363 formula=19363
+    p=17 用时 0s
+  [PASS] S2a p=19 W=2 [2] 刚性 ⇒ 全部 d 可容许  分类 {'admissible': 18}
+  [PASS] S2b p=19 W=2 ρ>0  ρ_min=3 ρ_max=3 循环长 [1] c_max=38
+  [PASS] S2c p=19 W=2 d=0 k=1 (n=39) 公式=直接  direct=342 formula=342
+  [PASS] S2c p=19 W=2 d=17 k=1 (n=56) 公式=直接  direct=1425 formula=1425
+  [PASS] S2c p=19 W=2 d=0 k=2 (n=1065) 公式=直接  direct=27075 formula=27075
+  [PASS] S2a p=19 W=12 [12] 刚性 ⇒ 全部 d 可容许  分类 {'admissible': 18}
+  [PASS] S2b p=19 W=12 ρ>0  ρ_min=4 ρ_max=4 循环长 [1] c_max=152/13
+  [PASS] S2c p=19 W=12 d=0 k=1 (n=229) 公式=直接  direct=342 formula=342
+  [PASS] S2c p=19 W=12 d=17 k=1 (n=246) 公式=直接  direct=1786 formula=1786
+  [PASS] S2c p=19 W=12 d=0 k=2 (n=4675) 公式=直接  direct=33934 formula=33934
+    p=19 用时 0s
+  [PASS] S2a p=23 W=158 [6, 20] 刚性 ⇒ 全部 d 可容许  分类 {'admissible': 22}
+  [PASS] S2b p=23 W=158 ρ>0  ρ_min=2 ρ_max=2 循环长 [1] c_max=2116/159
+  [PASS] S2c p=23 W=158 d=0 k=1 (n=3635) 公式=直接  direct=60306 formula=60306
+  [PASS] S2c p=23 W=158 d=21 k=1 (n=3656) 公式=直接  direct=84640 formula=84640
+    p=23 用时 0s
+  [PASS] S2a p=29 W=6 [6] 刚性 ⇒ 全部 d 可容许  分类 {'admissible': 28}
+  [PASS] S2b p=29 W=6 ρ>0  ρ_min=4 ρ_max=4 循环长 [1] c_max=232/7
+  [PASS] S2c p=29 W=6 d=0 k=1 (n=175) 公式=直接  direct=290 formula=290
+  [PASS] S2c p=29 W=6 d=27 k=1 (n=202) 公式=直接  direct=3335 formula=3335
+  [PASS] S2c p=29 W=6 d=0 k=2 (n=5859) 公式=直接  direct=96715 formula=96715
+  [PASS] S2a p=29 W=14 [14] 刚性 ⇒ 全部 d 可容许  分类 {'admissible': 28}
+  [PASS] S2b p=29 W=14 ρ>0  ρ_min=5 ρ_max=5 循环长 [1] c_max=58/3
+  [PASS] S2c p=29 W=14 d=0 k=1 (n=407) 公式=直接  direct=812 formula=812
+  [PASS] S2c p=29 W=14 d=27 k=1 (n=434) 公式=直接  direct=5017 formula=5017
+  [PASS] S2c p=29 W=14 d=0 k=2 (n=12587) 公式=直接  direct=145493 formula=145493
+    p=29 用时 0s
+  [PASS] S2a p=31 W=6 [6] 刚性 ⇒ 全部 d 可容许  分类 {'admissible': 30}
+  [PASS] S2b p=31 W=6 ρ>0  ρ_min=4 ρ_max=4 循环长 [1] c_max=248/7
+  [PASS] S2c p=31 W=6 d=0 k=1 (n=187) 公式=直接  direct=1209 formula=1209
+  [PASS] S2c p=31 W=6 d=29 k=1 (n=216) 公式=直接  direct=5053 formula=5053
+  [PASS] S2c p=31 W=6 d=0 k=2 (n=6697) 公式=直接  direct=156643 formula=156643
+  [PASS] S2a p=31 W=10 [10] 刚性 ⇒ 全部 d 可容许  分类 {'admissible': 30}
+  [PASS] S2b p=31 W=10 ρ>0  ρ_min=5 ρ_max=5 循环长 [1] c_max=310/11
+  [PASS] S2c p=31 W=10 d=0 k=1 (n=311) 公式=直接  direct=1736 formula=1736
+  [PASS] S2c p=31 W=10 d=29 k=1 (n=340) 公式=直接  direct=5580 formula=5580
+  [PASS] S2c p=31 W=10 d=0 k=2 (n=10541) 公式=直接  direct=202771 formula=202771
+  [PASS] S2a p=31 W=12 [12] 刚性 ⇒ 全部 d 可容许  分类 {'admissible': 30}
+  [PASS] S2b p=31 W=12 ρ>0  ρ_min=4 ρ_max=4 循环长 [1] c_max=248/13
+  [PASS] S2c p=31 W=12 d=0 k=1 (n=373) 公式=直接  direct=682 formula=682
+  [PASS] S2c p=31 W=12 d=29 k=1 (n=402) 公式=直接  direct=4526 formula=4526
+  [PASS] S2c p=31 W=12 d=0 k=2 (n=12463) 公式=直接  direct=140306 formula=140306
+    p=31 用时 1s
+  [PASS] S2a p=37 W=10 [10] 刚性 ⇒ 全部 d 可容许  分类 {'admissible': 36}
+  [PASS] S2b p=37 W=10 ρ>0  ρ_min=4 ρ_max=4 循环长 [1] c_max=296/11
+  [PASS] S2c p=37 W=10 d=0 k=1 (n=371) 公式=直接  direct=5439 formula=5439
+  [PASS] S2c p=37 W=10 d=35 k=1 (n=406) 公式=直接  direct=10915 formula=10915
+  [PASS] S2c p=37 W=10 d=0 k=2 (n=15023) 公式=直接  direct=403855 formula=403855
+  [PASS] S2a p=37 W=26 [26] 刚性 ⇒ 全部 d 可容许  分类 {'admissible': 36}
+  [PASS] S2b p=37 W=26 ρ>0  ρ_min=8 ρ_max=8 循环长 [1] c_max=592/27
+  [PASS] S2c p=37 W=26 d=0 k=1 (n=963) 公式=直接  direct=1332 formula=1332
+  [PASS] S2c p=37 W=26 d=35 k=1 (n=998) 公式=直接  direct=12284 formula=12284
+  [PASS] S2c p=37 W=26 d=0 k=2 (n=36927) 公式=直接  direct=454508 formula=454508
+    p=37 用时 1s
+  [PASS] S2a p=41 W=12 [12] 刚性 ⇒ 全部 d 可容许  分类 {'admissible': 40}
+  [PASS] S2b p=41 W=12 ρ>0  ρ_min=4 ρ_max=4 循环长 [1] c_max=328/13
+  [PASS] S2c p=41 W=12 d=0 k=1 (n=493) 公式=直接  direct=1640 formula=1640
+  [PASS] S2c p=41 W=12 d=39 k=1 (n=532) 公式=直接  direct=8364 formula=8364
+  [PASS] S2c p=41 W=12 d=0 k=2 (n=21813) 公式=直接  direct=342924 formula=342924
+    p=41 用时 1s
+
+============================================================
+[S3]  t=39s
+  [PASS] S3 p=7 抽样 80 个 n∈[7^4,7^5]: E<=2 ?  max E=1 at n=7370; max m0/(n-1)=4.2647 at n=7320
+
+SUMMARY  44s
+FAIL: 0
+PASS: 98
+INFO: 0
